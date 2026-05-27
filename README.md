@@ -1,6 +1,6 @@
 # ByteEfficient
 
-Public-facing pages for [Second Home](https://apps.apple.com/app/secondhome) — a household inventory and shopping list app for iOS and Android.
+Public-facing pages for [Second Home](https://apps.apple.com/app/id6773753257) — a household inventory and shopping list app for iOS and Android.
 
 ## Pages
 
