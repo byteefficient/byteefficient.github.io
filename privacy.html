@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Second Home</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 20px; margin-top: 40px; border-bottom: 1px solid #e0e0e0; padding-bottom: 8px; }
+    h3 { font-size: 16px; margin-top: 24px; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 24px; }
+    .meta { color: #666; font-size: 14px; margin-bottom: 32px; }
+    a { color: #4A7CF7; }
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 32px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<div class="meta">
+  <strong>Application:</strong> Second Home<br>
+  <strong>Developer:</strong> ByteEfficient<br>
+  <strong>Platform:</strong> iOS and Android<br>
+  <strong>Effective Date:</strong> May 26, 2026<br>
+  <strong>Last Updated:</strong> May 27, 2026
+</div>
+
+<h2>1. Introduction</h2>
+<p>Welcome to <strong>Second Home</strong>, a mobile application developed by <strong>ByteEfficient</strong> for iOS and Android. Second Home helps you track household inventory — food, beverages, cleaning supplies, toiletries, and other household items — across one or more homes.</p>
+<p>Second Home uses a <strong>local-first architecture</strong>: your inventory data is stored on your device in a local database for fast, responsive access — even when offline. An account is required to use the app, and your data is synced to the cloud for backup, multi-device access, and home sharing with household members.</p>
+<p>This Privacy Policy describes what data is collected, how it is used, and your rights regarding that data. By installing or using Second Home, you agree to the terms of this Privacy Policy.</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>2.1 Account Information</h3>
+<p>An account is required to use Second Home. During account creation and authentication, we collect:</p>
+<ul>
+  <li><strong>Email address</strong> — used for account creation, authentication, password resets, and communication</li>
+  <li><strong>Apple ID identifier</strong> — if you sign in with Apple, we receive a unique identifier and, if you choose to share it, your email address (Apple may provide a private relay email address)</li>
+  <li><strong>Display name</strong> — used to identify you to other members of shared homes</li>
+</ul>
+
+<h3>2.2 Inventory Data</h3>
+<p>When you use the app, you create:</p>
+<ul>
+  <li>Home names, emoji, and accent colors you assign to each home</li>
+  <li>Storage locations (pantry, fridge, freezer, and any custom locations)</li>
+  <li>Item data — names, categories, stock levels, staple status, pin status, and optional notes</li>
+  <li>Timestamps for when items were added and last updated</li>
+</ul>
+<p>This data is stored locally on your device (in a SQLite database) and synced to our cloud servers (hosted by Supabase) for backup, multi-device access, and sharing.</p>
+
+<h3>2.3 App Preferences (On-Device Only)</h3>
+<p>The following preferences are stored locally on your device and are <strong>not</strong> synced or transmitted:</p>
+<ul>
+  <li>Onboarding completion flag</li>
+  <li>Last-selected active home</li>
+  <li>Haptic feedback setting (on/off)</li>
+</ul>
+
+<h3>2.4 Home Sharing and Membership</h3>
+<p>When you share a home with other household members:</p>
+<ul>
+  <li>Which homes you are a member of</li>
+  <li>Your role within each home (owner or member)</li>
+  <li>Records of home membership changes (e.g., joining or leaving a home)</li>
+</ul>
+<p>When items are added or updated in a shared home, we record which account made the change. This allows household members to see who last modified an item.</p>
+
+<h3>2.5 Invite Links</h3>
+<p>When a home owner generates a shareable invite link or code, that link is stored temporarily to allow new members to join the home. Invite links are not tied to a specific email address — anyone with the link can join the home until the link expires or is revoked.</p>
+
+<h3>2.6 Camera and Barcode Scanning</h3>
+<p>Second Home requests camera access solely to scan product barcodes for quick item entry. When a barcode is scanned:</p>
+<ul>
+  <li>The camera feed is processed on-device to detect the barcode number</li>
+  <li>The barcode number is sent to the <strong>Open Food Facts</strong> public API (<code>world.openfoodfacts.org</code>) to look up the product name</li>
+  <li>No images are stored, uploaded, or shared</li>
+  <li>Camera access can be revoked at any time in your device settings</li>
+</ul>
+<p>For more information on Open Food Facts' data practices, see the <a href="https://world.openfoodfacts.org/privacy">Open Food Facts Privacy Policy</a>.</p>
+
+<h3>2.7 Shared Content (User-Initiated)</h3>
+<p>Second Home includes two optional sharing features that are entirely user-initiated:</p>
+<ul>
+  <li><strong>Share Needs List</strong> — generates a plain-text shopping list and opens your device's system share sheet. You choose where to send it. ByteEfficient does not receive or store any data from this action.</li>
+  <li><strong>Export Inventory (CSV)</strong> — generates a CSV file of your inventory and opens your device's system share sheet. ByteEfficient does not receive or store any data from this action.</li>
+</ul>
+
+<h3>2.8 Information We Do NOT Collect</h3>
+<p>Second Home does <strong>not</strong> collect:</p>
+<ul>
+  <li>Payment or financial information</li>
+  <li>Precise device location or GPS data</li>
+  <li>Contacts or photos</li>
+  <li>Device identifiers or advertising identifiers</li>
+  <li>Crash analytics or usage telemetry</li>
+</ul>
+
+<h2>3. How We Use Your Information</h2>
+<p>We use your data for the following purposes:</p>
+<ul>
+  <li><strong>Authenticate your identity</strong> — verify your credentials when you sign in</li>
+  <li><strong>Store and display your inventory</strong> — show your items, stock levels, and shopping list</li>
+  <li><strong>Sync across devices</strong> — keep your inventory up to date on any device you sign in on</li>
+  <li><strong>Enable home sharing</strong> — allow household members you invite to view and update shared inventory</li>
+  <li><strong>Display change attribution</strong> — show home members who last modified an item</li>
+  <li><strong>Manage home membership</strong> — track who belongs to each shared home and process invitations</li>
+  <li><strong>Offline access</strong> — your local database allows full use of the app without an internet connection; changes sync when connectivity is restored</li>
+</ul>
+<p>We do <strong>not</strong> use your data for advertising, third-party profiling, or any purpose beyond operating the application.</p>
+
+<h2>4. Data Storage and Infrastructure</h2>
+
+<h3>On-Device Storage</h3>
+<p>All inventory data is stored in a local SQLite database on your device. The app reads from this local database for all display operations, ensuring fast performance and offline access.</p>
+
+<h3>Cloud Storage</h3>
+<p>Your account information and inventory data are synced to <strong>Supabase</strong>, a cloud backend platform. Supabase uses industry-standard security practices including encryption in transit (TLS) and encryption at rest. For more information on Supabase's data practices, see the <a href="https://supabase.com/privacy">Supabase Privacy Policy</a>.</p>
+
+<h3>Device Backups</h3>
+<p>If your device uses iCloud Backup (iOS) or Google Drive Backup (Android), your local app data — including the on-device SQLite database — may be included in those backups per your device's settings. These backups are governed by Apple's or Google's respective privacy policies.</p>
+
+<h2>5. Data Security</h2>
+<p>We take reasonable technical and organizational measures to protect your data, including:</p>
+<ul>
+  <li><strong>Encryption in transit:</strong> All communication between the app and Supabase is encrypted using HTTPS/TLS</li>
+  <li><strong>Encryption at rest:</strong> Data stored in Supabase is encrypted at rest</li>
+  <li><strong>Secure token storage:</strong> Authentication tokens are stored using your device's encrypted secure storage</li>
+  <li><strong>Password security:</strong> Passwords are hashed and never stored in plain text</li>
+  <li><strong>Row-level security:</strong> Cloud database access is enforced per-user — you can only access homes you belong to</li>
+  <li><strong>Invite link controls:</strong> Home owners can revoke invite links at any time to prevent new members from joining</li>
+</ul>
+<p>We recommend using a strong, unique password for your Second Home account and keeping your device's operating system up to date. No method of transmission or storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+<h2>6. Sharing of Information</h2>
+<p>We do not sell, rent, or share your personal data with third parties for advertising or commercial purposes.</p>
+<p>We may share your information only in the following limited circumstances:</p>
+<ul>
+  <li><strong>Supabase</strong> — as our infrastructure provider, Supabase processes and stores data on our behalf under appropriate data processing agreements</li>
+  <li><strong>Open Food Facts</strong> — barcode numbers (not personal data) are sent to the Open Food Facts API for product lookups</li>
+  <li><strong>Other home members</strong> — when you join or are invited to a shared home, other members of that home can see your display name and the inventory changes you make</li>
+  <li><strong>Legal compliance</strong> — if required by applicable law, regulation, or valid legal process</li>
+  <li><strong>Protection of rights</strong> — to protect the safety, rights, or property of ByteEfficient, our users, or the public</li>
+  <li><strong>Business transfers</strong> — in the event of a merger, acquisition, or sale of assets, your data may be transferred as part of that transaction, with prior notice provided to you</li>
+</ul>
+
+<h2>7. Managing Homes for Others</h2>
+<p>Second Home allows you to track inventory on behalf of a family member, friend, or other person (e.g., "Mom's Home"). The managed home's inventory is stored in your account and synced to the cloud. You are responsible for how that data is handled and for obtaining any necessary consent from the person whose home you are managing.</p>
+
+<h2>8. Data Retention</h2>
+<p>Account information and inventory data are retained for as long as your account remains active. If you delete your account, your personal information and associated inventory data are permanently deleted from our servers immediately, except where retention is required by law.</p>
+<p>You can delete data at any level within the app:</p>
+<ul>
+  <li><strong>Delete an item</strong> — removes that item immediately</li>
+  <li><strong>Reset home data</strong> — deletes all items for a home while keeping the home structure</li>
+  <li><strong>Delete a home</strong> — permanently removes the home and all associated data</li>
+  <li><strong>Delete your account</strong> — immediately removes your account and all cloud-stored data</li>
+</ul>
+
+<h2>9. Your Rights and Choices</h2>
+<p>Depending on your location, you may have the following rights:</p>
+<ul>
+  <li><strong>Access</strong> — request a copy of the personal information we hold about your account</li>
+  <li><strong>Correction</strong> — request correction of inaccurate or incomplete information</li>
+  <li><strong>Deletion</strong> — request deletion of your account and associated data, or use the in-app Delete Account feature</li>
+  <li><strong>Data portability</strong> — export your inventory at any time using the built-in CSV export feature</li>
+</ul>
+<p>To exercise any of these rights, contact us at the address in Section 12. We will respond to valid requests within <strong>30 days</strong>.</p>
+
+<h2>10. Children's Privacy</h2>
+<p>Second Home is not directed at children under the age of <strong>13</strong>. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us and we will delete it promptly.</p>
+
+<h2>11. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time as the app evolves. When material changes are made, we will:</p>
+<ul>
+  <li>Update the <strong>"Last Updated"</strong> date at the top of this document</li>
+  <li>Notify you via in-app notice or email</li>
+</ul>
+<p>Your continued use of Second Home after any changes constitutes your acceptance of the updated policy. If you do not agree, you may uninstall the app or delete your account at any time.</p>
+
+<h2>12. Contact Us</h2>
+<p>If you have questions, concerns, or requests regarding this Privacy Policy, please contact us at:</p>
+<p><strong>ByteEfficient</strong><br>
+Email: <a href="mailto:joey@byteefficient.com">joey@byteefficient.com</a></p>
+
+</body>
+</html>
